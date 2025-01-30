@@ -3,7 +3,7 @@
 ### 🚀 AI-Powered Bank FD Rate Analyzer
  A personal project that combines AI and web scraping to extract and analyze Fixed Deposit (FD) rates from various bank websites, helping users find the best investment option.
 ### 🔥 How AI Powers This Project
-	•	Web Scraping with BeautifulSoup → Extracts text-based data from bank websites.
+ Web Scraping with BeautifulSoup → Extracts text-based data from bank websites.
 	•	AI-Powered Summarization (GPT-4o-mini) → Processes and summarizes financial insights.
 	•	Automated Bank Comparison → AI ranks banks based on FD interest rates.
 	•	Natural Language Processing (NLP) → Cleans and structures web data for better analysis.
