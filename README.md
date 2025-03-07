@@ -29,3 +29,51 @@ This Python script sets up a web application using Gradio to allow users to inte
 - Users can input messages and receive responses from both GPT-4 and Claude simultaneously, facilitating easy comparison.
 
 ## LLM Project 3
+### 🚀 AI-Powered Code Converter & Executor
+
+A simple yet powerful AI tool that **converts and optimizes code** between **Python, JavaScript, and C++**, allowing you to run and test code directly from your browser.
+
+---
+
+### ✨ Features
+
+- **🔄 Multi-language Conversion**:
+  - Python ↔️ JavaScript ↔️ C++
+- **🤖 Advanced AI Models**:
+  - GPT-4o (OpenAI)
+  - Claude 3 Sonnet (Anthropic)
+  - Gemini 1.5 Flash (Google)
+- **▶️ Instant Code Execution**:
+  - Execute both original and converted code immediately.
+- **🌟 User-Friendly Web Interface**:
+  - Built with **Gradio** for ease of use.
+
+---
+
+### ⚙️ How It Works
+
+1. Enter your code and choose languages for conversion.
+2. Select an AI model for optimal performance.
+3. Receive optimized code instantly.
+4. Run both input and output code directly within the app.
+
+---
+
+### 🛠️ Tech Stack
+
+- **Gradio** (UI)
+- **OpenAI API** (GPT-4o)
+- **Anthropic API** (Claude 3)
+- **Google Generative AI** (Gemini)
+- **ExecJS** (JavaScript execution)
+- **Subprocess & Clang++** (C++ compilation)
+- **Dotenv** (Secure management of API keys)
+
+---
+
+### 🚦 Quick Start
+
+### 1. Install Dependencies
+
+```bash
+pip install gradio openai anthropic google-generativeai python-dotenv execjs
