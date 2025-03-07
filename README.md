@@ -27,3 +27,5 @@ This Python script sets up a web application using Gradio to allow users to inte
 
 ### Functionality:
 - Users can input messages and receive responses from both GPT-4 and Claude simultaneously, facilitating easy comparison.
+
+## LLM Project 3
