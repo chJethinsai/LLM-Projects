@@ -99,7 +99,8 @@ The application is powered by the following components:
 - **Document Processing**: Chunking system with large context windows (100,000 tokens with a 20,000 token overlap) for efficient document chunking and retrieval.
 
 ## Data Processing
-I got this court cade database from Hugging Face Data Sets
+I Got this court cade database from Hugging Face Data Sets
+
 The court case database is processed and stored in a way that maximizes the efficiency of the RAG pipeline:
 
 - **Chunk Size**: Each document is divided into chunks of **100,000 tokens**.
