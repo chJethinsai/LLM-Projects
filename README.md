@@ -69,11 +69,40 @@ A simple yet powerful AI tool that **converts and optimizes code** between **Pyt
 - **Subprocess & Clang++** (C++ compilation)
 - **Dotenv** (Secure management of API keys)
 
----
 
-### 🚦 Quick Start
 
-### 1. Install Dependencies
 
-```bash
-pip install gradio openai anthropic google-generativeai python-dotenv execjs
+
+## LLM Project 4
+
+## Court Case RAG AI Application
+
+## Overview
+The **Court Case Retrieval-Augmented Generation (RAG) AI** application enables fast and efficient searching, retrieval, and summarization of legal court case files. By leveraging state-of-the-art natural language processing (NLP) technologies, this system delivers high-accuracy responses to legal queries. It retrieves relevant case data from a large database of court documents and generates concise summaries, making it an invaluable tool for legal professionals.
+
+The system combines the power of **LangChain** for orchestrating the RAG pipeline, **Chroma** for vector-based document storage and retrieval, and **OpenAI’s GPT-4o-mini** model for generating responses, all presented via an intuitive user interface powered by **Gradio**.
+
+## Key Features
+- **Fast Query Processing**: Get rapid, accurate responses to complex legal queries.
+- **Intelligent Document Retrieval**: Efficiently retrieves relevant legal documents for case analysis.
+- **Context-Aware Summarization**: Generates coherent and concise summaries of case information.
+- **User-Friendly Interface**: A simple, intuitive interface built using Gradio to allow users to interact with the application effortlessly.
+
+## Technical Architecture
+The application is powered by the following components:
+
+- **Framework**: [LangChain](https://langchain.com) for orchestrating the Retrieval-Augmented Generation (RAG) pipeline.
+- **Vector Database**: [Chroma](https://www.trychroma.com/) for efficient document storage and retrieval based on embeddings.
+- **Embedding Model**: [OpenAI’s Embedding Model](https://openai.com/research/embedding) to transform legal documents into embeddings for faster search and retrieval.
+- **Large Language Model (LLM)**: [GPT-4o-mini](https://openai.com) for generating high-quality responses to legal queries.
+- **User Interface**: [Gradio](https://gradio.app/) for creating a responsive and user-friendly web interface.
+- **Document Processing**: Chunking system with large context windows (100,000 tokens with a 20,000 token overlap) for efficient document chunking and retrieval.
+
+## Data Processing
+The court case database is processed and stored in a way that maximizes the efficiency of the RAG pipeline:
+
+- **Chunk Size**: Each document is divided into chunks of **100,000 tokens**.
+- **Chunk Overlap**: To maintain context between chunks, a **20,000 token overlap** is used.
+- **Total Chunks**: The system processes and stores **51 chunks** of documents, ensuring optimal context retrieval for query processing.
+
+
