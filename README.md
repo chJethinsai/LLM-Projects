@@ -75,7 +75,7 @@ A simple yet powerful AI tool that **converts and optimizes code** between **Pyt
 
 ## LLM Project 4
 
-## Court Case RAG AI Application RAG - Retrieval augmented generation
+## Court Case RAG AI Application (RAG - Retrieval augmented generation)
 
 ## Overview
 The **Court Case Retrieval-Augmented Generation (RAG) AI** application enables fast and efficient searching, retrieval, and summarization of legal court case files. By leveraging state-of-the-art natural language processing (NLP) technologies, this system delivers high-accuracy responses to legal queries. It retrieves relevant case data from a large database of court documents and generates concise summaries, making it an invaluable tool for legal professionals.
